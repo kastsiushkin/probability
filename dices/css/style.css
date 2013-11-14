@@ -1,0 +1,68 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Myriad Pro;
+}
+#title {
+	width: 90%;
+	margin: 0 auto 10px;
+	overflow: hidden;
+}
+h1 {
+	font: 14pt/1 Myriad Pro;
+}
+.probability-graph {
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+    position: relative;
+    color: #111;
+}
+#menu {
+	width: 90%;
+	margin: 0 auto 20px;
+	overflow: hidden;
+}
+#menu div {
+	float: left;
+}
+#menu a {
+	display: block;
+	padding: 4px 15px;
+	text-decoration: none;
+	color: #fff;
+	background-image: linear-gradient(to bottom, #00A3EF 0%, #3656b3 100%);
+	background-color: #00A3EF;
+	border: 1px solid #222;
+	border-top: none;
+	border-radius: 0 0 5px 5px;
+}
+#menu #active a {
+	color: #eee;
+	padding: 6px 15px;
+	cursor: default;
+	background: #00A3EF;
+}
+.sidebar {
+	margin: 0 50px;
+}
+.graph {
+    height: 100%;
+}
+.title-text {
+    font-size: 20px;
+    line-height: 43px;
+    color: #ff9933;
+    margin-bottom: 5px;
+    position: relative;
+    height: 43px;
+    text-align: center;
+}
+#footer {
+	width: 960px;
+	margin: 20px auto;
+	text-align: center;
+	color: #ccc;
+}
